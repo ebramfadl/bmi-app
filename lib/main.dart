@@ -1,3 +1,4 @@
+import 'package:bmi/screens/chart.dart';
 import 'package:bmi/screens/hey_clyncer.dart';
 import 'package:bmi/screens/input.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class BMICalculator extends StatelessWidget{
         primaryColor: Color(0xFF0A0E21),
         scaffoldBackgroundColor: Color(0xFF0A0E21),
       ),
-      home: HeyClyncer(),
+      home: Chart(),
     );
   }
 

@@ -19,6 +19,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   font_awesome_flutter: ^10.5.0
   audioplayers: ^5.0.0
+  fl_chart: ^0.63.0
+  flutter_charts: ^0.5.1
+  syncfusion_flutter_charts: ^23.1.36
 
 dev_dependencies:
   flutter_test:

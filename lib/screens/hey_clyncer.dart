@@ -6,10 +6,7 @@ class HeyClyncer extends StatelessWidget {
     final size = MediaQuery.sizeOf(context);
     return Scaffold(
       backgroundColor: Colors.white70,
-      appBar: AppBar(
-        title: Text("Pockets"),
-        backgroundColor: Colors.white70,
-      ),
+
       body: Stack(
         children: <Widget>[
           Center(
@@ -49,13 +46,12 @@ class HeyClyncer extends StatelessWidget {
           Align(
             alignment: Alignment.topCenter,
             child: Padding(
-              padding: const EdgeInsets.only(top: 35),
+              padding: EdgeInsets.only(top: 35),
               child: Image.asset(
                 'assets/clync2.png',
                 width: size.width,
               ),
             ),
-
           ),
         ],
       ),
